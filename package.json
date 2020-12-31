@@ -1,0 +1,23 @@
+{
+  "name": "incremental-graphql",
+  "version": "1.0.0",
+  "description": "Prototype incremental enrichments based on GraphQL queries",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "graphql",
+    "prototype",
+    "express"
+  ],
+  "author": "Hans Krebs",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.4.0",
+    "nodemon": "^2.0.6",
+    "uuid": "^8.3.2"
+  }
+}
